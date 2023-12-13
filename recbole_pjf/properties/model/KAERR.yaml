@@ -1,0 +1,15 @@
+USE_KGE: True
+USE_PATH: True
+USE_SINGLE_INTER: True
+mmap: True
+
+#ADD_BERT: True
+#save_bert_vec: True
+
+train_batch_size: 1024
+valid_batch_size: 4096
+kg_embedding_size: 32
+hidden_size: 32
+max_sent_num: 20
+max_sent_len: 30
+
